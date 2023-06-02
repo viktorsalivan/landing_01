@@ -1,0 +1,507 @@
+/* Main Style */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans';
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.55);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 300;
+    color: #414141;
+}
+
+.section-description {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #787878;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* !Header */
+
+.style-header {
+    height: 150px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.container {
+    max-width: 1200px;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+
+.navbar {
+    display: flex;
+    margin: auto;
+}
+
+
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.nav-item {
+    font-style: 15px;
+    line-height: 1;
+    color: #1c1c1c;
+}
+
+.header-btn {
+    margin-left: 40px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    background: #3172b9
+}
+
+.btn.big-btn {
+    padding: 20px 60px;
+    
+}
+
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+/*!Hero*/
+
+.section-hero {
+    background: url('../img/Base-original.jpg') right center no-repeat white;
+}
+
+.container-hero {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+
+
+.section-heading-hero {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #1c1c1c;
+}
+
+.section-hero-description {
+    margin-bottom: 33px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+}
+
+.section-hero-btn-descriptinon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 1;
+    color: #787878;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-hero-action {
+    display: inline-block;
+}
+
+.section-hero-btn {
+    margin-top: 10px;
+}
+
+.section-hero-SSL-icon {
+    display: inline-block;
+    width: 13px;
+    height: 17px;
+    margin-right: 10px;
+    background-size: contain;
+    background: url('../img/SSL.svg') center center no-repeat transparent;
+    transform: translateY(-2px)
+}
+
+/* !Section DO */
+
+.section-do {
+    padding-top: 140px;
+    padding-bottom: 99px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.section-do-list {
+    display: flex;
+    padding-top: 50px;
+}
+
+.section-do-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+
+.section-do-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    padding: 60px 30px;
+}
+
+.section-do-item:hover .section-do-icon{
+    fill: #fff;
+}
+
+.section-do-item:hover .section-do-item-heading{
+    color: #fff;
+}
+
+.section-do-item:hover .selection-do-item-description{
+    color: #fff;
+}
+
+
+
+.section-do-item-heading {
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    color: #1c1c1c;
+    transition: color 0.3s ease-in-out;
+}
+
+.section-do-icon {
+    margin-bottom: 30px;
+    fill: #3172b9;
+    transition: fill 0.3s ease-in-out;
+
+}
+
+.selection-do-item-description {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    color: #787878;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
+/* !Clients */
+
+.section-clients {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.section-clients-heading {
+    margin-bottom: 45px;
+}
+
+.section-clients-list {
+    display: flex;
+}
+
+.section-clients-item {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 35px 30px 35px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+}
+
+.section-clients-user {
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+    border-top: 1px solid #e9e9e9;
+}
+
+.section-clients-avatar {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #3172b9;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.section-clients-testimonial {
+    margin-top: 0;
+    margin-bottom: 35px;
+    tab-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #787878;
+
+}
+
+.section-clients-user-name {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.section-clients-user-description {
+    font-size: 14px;
+    line-height: 25px;
+    color: #787878;
+}
+
+/* Contacts */
+
+.section-contacts {
+    padding-top: 85px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.section-contacts-list {
+    display: flex;
+    margin-top: 43px;
+}
+
+.section-contacts-list-item {
+
+    margin-right: auto;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+.section-contacts-info {
+    max-width: 250px;
+}
+
+.section-contacts-icon {
+    height: 26px;
+    display: block;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto 100%;
+    background-color: transparent;
+}
+
+.section-contacts-icon-gps {
+    background-image: url('../img/gps.png');
+}
+
+.section-contacts-icon-phone {
+    background-image: url('../img/phone.png');
+}
+
+.section-contacts-icon-mail {
+    background-image: url('../img/mail.png');
+    background-size: auto 19px;
+}
+
+.section-contacts-heading {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 1;
+    color: #1c1c1c;
+}
+
+.section-contacts-info {
+    font-size: 14px;
+    line-height: 25px;
+    color: #787878;
+}
+
+/* !Form Contacts */
+
+.selection-contact-form {
+    padding-top: 100px;
+    padding-bottom: 117px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.section-heading-form {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 21px;
+    font-family: l;
+}
+
+
+.btn.btn-submit {
+    padding: 20px 100px;
+    border-radius: 30px;
+    border-color: transparent;
+    margin-left: 5px;
+}
+
+.input {
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 20px 36px;
+    border: 1px solid #787878
+}
+
+.section-description.form-h2-style {
+    margin-bottom: 40px;
+}
+
+
+
+/* !Footer */
+
+.footer {
+    height: 125px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-right: 25px;
+}
+
+.footer-nav-list {
+    display: flex;
+}
+
+.footer-nav {
+    margin-right: 55px;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.footer-nav-link {
+    font-size: medium;
+    color: #787878;
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-social-icon {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.footer-social-icon-twitter {
+    width: 18px;
+    height: 15px;
+    background-image: url('../img/Social-icon/Twitter.svg');
+}
+
+.footer-social-Icon-Linkedin {
+    width: 18px;
+    height: 19px;
+    background-image: url('../img/Social-icon/Linkedin.svg');
+    transform: translateY(-2px);
+}
+
+.footer-social-icon-email {
+    width: 24px;
+    height: 17px;
+    background-image: url('../img/Social-icon/Email.svg');
+}
+
+.footer-copyrigts {
+    font-size: 12px;
+    line-height: 17;
+    color: #787878;
+}
+
+.footer-nav {
+    font-size: 14px;
+    line-height: 1;
+}
+
